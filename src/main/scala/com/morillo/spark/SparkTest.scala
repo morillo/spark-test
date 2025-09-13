@@ -1,4 +1,4 @@
-package com.example.spark
+package com.morillo.spark
 
 import org.apache.spark.sql.SparkSession
 
