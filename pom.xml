@@ -73,6 +73,9 @@
                 <version>3.5.1</version>
                 <configuration>
                     <mainClass>com.example.spark.SparkTest</mainClass>
+                    <environmentVariables>
+                        <JAVA_HOME>/opt/homebrew/Cellar/openjdk@17/17.0.16/libexec/openjdk.jdk/Contents/Home</JAVA_HOME>
+                    </environmentVariables>
                 </configuration>
             </plugin>
         </plugins>
