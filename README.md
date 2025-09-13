@@ -48,7 +48,7 @@ This will:
 ### Option 1: Using spark-submit (Recommended)
 
 ```bash
-spark-submit --class com.example.spark.SparkTest --master "local[2]" target/spark-test-1.0-SNAPSHOT.jar
+spark-submit --class com.morillo.spark.SparkTest --master "local[2]" target/spark-test-1.0-SNAPSHOT.jar
 ```
 
 ### Option 2: Using Maven exec plugin
